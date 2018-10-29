@@ -1,0 +1,5 @@
+{
+  "name": "MyAPP",
+  "port": 1337,
+  "environment": "development"
+}

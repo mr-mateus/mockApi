@@ -1,0 +1,45 @@
+{
+  "name": "express-restful-starter",
+  "version": "1.0.0",
+  "description": "expressjs restfull starter",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest  --watchAll --logHeapUsage",
+    "start": "node server.js",
+    "dev": "./node_modules/.bin/nodemon -w ./ --harmony",
+    "db:tables:create": "node ./tasks/migrate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boadude/express-restful-starter"
+  },
+  "keywords": [
+    "restful",
+    "express",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "Miguel Meza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boadude/express-restful-starter/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "compression": "^1.5.2",
+    "errorhandler": "^1.4.3",
+    "express": "~4.15.2",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
+    "nodemon": "^1.8.1"
+  },
+  "homepage": "https://github.com/boadude/express-restful-starter",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-http": "^3.0.0",
+    "cors": "^2.8.4",
+    "jest": "^22.4.3",
+    "mocha": "^3.2.0",
+    "superagent": "^3.5.2"
+  }
+}
