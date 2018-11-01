@@ -1,5 +1,3 @@
-# README #
-
 # MockApi
 MockApi é uma aplicação desenvolvida para possibilitar inserção de retornos de ```endpoints``` para auxiliar no desenvolvimento ou automação da página web. 
 
