@@ -31,7 +31,7 @@ Para inserir um endpoint é necessário utilizar a ```uri``` abaixo:
       "object": {
         "path": "path", // Path relativo do endpoint 
         "method": "method", // Método que será utilizado pelo client
-        "response": "Object" // Objeto que deve ser retornado, quando esse endpoint for requisitado
+        "response": "{{JSONOBject}}" // Objeto que deve ser retornado, quando esse endpoint for requisitado
       }
     }
 ```
@@ -39,7 +39,9 @@ Para limpar os endpoints disponíveis utiliar a ```uri``` abaixo
 * http://localhost:1337/mochapi/apis | Método ```DELETE```
 
 
+### MockApi facilitador Angular ###
 
+Dentro da pasta mockApiClient existe o arquivo mockApi.ts, um facilitador escrito em ```Typescript``` para criação de mocks utilizando ```Protractor```. Para utilizado em um projeto ```Angular```, é necessário copiar e colar no diretório ```e2e``` do projeto angular.
 
 
 
